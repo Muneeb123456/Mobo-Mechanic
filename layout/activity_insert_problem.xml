@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:hint="Problem"
+        android:id="@+id/problem"
+        />
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:hint="Description"
+        android:id="@+id/description"/>
+    <EditText
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:hint="Symptom"
+        android:id="@+id/symptom"/>
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:text="Insert"
+        android:id="@+id/insert"/>
+</LinearLayout>

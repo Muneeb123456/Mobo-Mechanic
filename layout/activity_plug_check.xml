@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BatteryCheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Plug Test"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/removePlug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/RemovePlugWires"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mehranmeter" />
+
+                <ImageButton
+                    android:id="@+id/RemovePlug"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mehranmeter" />
+
+                <ImageButton
+                    android:id="@+id/checkPlug"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mehranmeter" />
+
+                <ImageButton
+                    android:id="@+id/CheckPlugcurrent"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/mehranmeter" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/PlugMoreInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click to get more Plug Information"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp" />
+
+
+        <ImageButton
+            android:id="@+id/PlugInfo"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pluginfo"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/goodplug"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Click if plug's condition is good"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/PlugWires"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/plugwire"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plugwires"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/gooddistributor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Click if plug's condition is good"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/distributor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/distributorcurrent"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plugwires"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/goodcoil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Click if distributor's condition is good"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/coil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:textSize="20sp"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/coilcurrent"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/plugwires"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Done"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

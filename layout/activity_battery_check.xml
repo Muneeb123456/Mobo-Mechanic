@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    tools:context=".BatteryCheckActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Battery Test"
+            android:textAllCaps="true"
+            android:textColor="@color/colorBlack"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tightTerminals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tight Your Car Battery Terminals"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tightSolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/tightTutorial"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:padding="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tightterminal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" />
+
+        <TextView
+            android:id="@+id/cleanTerminals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clean Rusted Car Terminals"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cleanSolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cleanTutorial1"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/rustedterminal" />
+
+            <ImageButton
+                android:id="@+id/cleanTutorial2"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cleanterminal" />
+
+            <ImageButton
+                android:id="@+id/cleanTutorial3"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/tightterminal" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/separator" />
+
+        <TextView
+            android:id="@+id/towChain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tow Your Car to Jump Start"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/towChainSolution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/Towchain1"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/jumpstart" />
+
+            <ImageButton
+                android:id="@+id/Towchain2"
+                android:layout_width="90dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/howtojumpstart" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Done"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

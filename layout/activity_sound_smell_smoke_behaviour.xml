@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context="com.example.muneeb.mobomechanics.SoundSmellSmokeBehaviour">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/showText"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:textColor="@color/colorlightBlue"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/containerr"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/showTextt"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:textColor="@color/colorlightBlue"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/containerrr"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/showTexttt"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:textColor="@color/colorlightBlue"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/containerrrr"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical" />
+
+            <TextView
+                android:id="@+id/showTextttt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/listSeparatorTextViewStyle"
+                android:textColor="@color/colorlightBlue"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/containerrrrr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:orientation="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nexxt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+</LinearLayout>
